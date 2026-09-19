@@ -17,7 +17,7 @@ class TrainData:
 
     def text_to_tensor(self) -> None:
         """
-        This method converts a text to a Pythorch tensor using the tokenizer Class
+        This method converts text to Pythorch tensor using the tokenizer Class
         """
 
         encoded_text = self.tokenizer.encode(self.text)
